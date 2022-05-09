@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <base href="http://localhost:8080/book/">
+</head>
+<body>
+<form action="registServlet" method="post">
+<table border="3px"  align='center' width='500'>
+    <tr>
+        <td><label for='username'>用户名</label></td>
+        <td><input type='text'  name='username' id='username'></td>
+    </tr>
+    <tr>
+        <td><label for='password'>密码</label></td>
+        <td><input type='password'  name='password' id='password'></td>
+    </tr>
+    <tr>
+        <td><label for='email'>Email</label></td>
+        <td><input type='email'  name='email' id='email'></td>
+    </tr>
+    <tr>
+        <td><label for='checkcode'>验证码</label></td>
+        <td><input type='text'  name='checkcode' id='checkcode'>
+            <img src='image/verify_code.jpg'>
+        </td>
+    </tr>
+    <tr>
+        <td colspan='2'  align='center'>
+            <input type='submit'  value='注册'>
+        </td>
+
+    </tr>
+    <tr>
+        <a href="pages/login.html">登录</a>
+    </tr>
+</table>
+</form>
+</body>
+</html>
