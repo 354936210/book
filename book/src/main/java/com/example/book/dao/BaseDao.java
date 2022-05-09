@@ -75,7 +75,7 @@ public abstract class BaseDao {
     }
 
     /**
-     * 执行返回一行一列的sql语句1
+     * 执行返回一行一列的sql语句12
      * @param sql 执行的sql
      * @param args sql对应的参数
      * @return
